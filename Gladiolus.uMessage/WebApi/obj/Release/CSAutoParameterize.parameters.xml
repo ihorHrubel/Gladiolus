@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DBConnection-Web.config Connection String" description="DBConnection Connection String used in web.config by the application to access the database." defaultValue="data source=gladiolus.database.windows.net,1433;Initial Catalog=gladiolus;User Id=Vitaliy;Password=03041997Annatar" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ігор\\Desktop\\Gladiolus\.uMessageTest\\WebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBConnection']/@connectionString" />
+  </parameter>
+  <parameter name="DataAccessLayer.Context.SocialContext-Web.config Connection String" description="DataAccessLayer.Context.SocialContext Connection String used in web.config by the application to access the database." defaultValue="DataAccessLayer.Context.SocialContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ігор\\Desktop\\Gladiolus\.uMessageTest\\WebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DataAccessLayer.Context.SocialContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ігор\\Desktop\\Gladiolus\.uMessageTest\\WebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
